@@ -45,7 +45,6 @@ def random_book():
     randombook=random.choice(list(books.keys()))
     print(randombook)
 def statistics():
-   def statistics():
     if len(books) == 0:
         print("There is no books!")
         return
